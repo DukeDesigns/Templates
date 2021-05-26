@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Label Template</title>
+</head>
+
+<body>
+     <h1>Label Template</h1>
+
+     <div>
+          <label for="ID1">ID1</label>
+          <input type="checkbox" name="InputName" id="ID1">
+     </div>
+</body>
+
+</html>
