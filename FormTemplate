@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Forms Template</title>
+</head>
+
+<body>
+     <h1>Forms Template</h1>
+
+     <form action="/search/">
+          <p>
+               <input type="text" placeholder="search" name="search">
+          </p>
+          <p>
+               <label for="username">Enter a Username:</label>
+               <input type="text" placeholder="username" name="username">
+          </p>
+          <p>
+               <label for="password">Enter Password:</label>
+               <input id="password" type="password" placeholder="password" name="password">
+          </p>
+          <p>
+               <label for="color">Pick a Color:</label>
+               <input id="color" type="color">
+          </p>
+          <p>
+               <label for="date">Pick a Date</label>
+               <input id="date" type="date" name="date">
+          </p>
+          <p>
+               <label for="check">Sample Question1?</label>
+               <input id="check" type="checkbox" name="checkbox1">
+          </p>
+          <p>
+               <label for="button">Next Page/Submit:</label>
+               <button>Next</button>
+               <input type="submit" value="Submit">
+               <!--2 Lines Above are Sumbit Button by Default/Value is used to change name on button-->
+               <button type="button">Next?</button>
+               <!--Nonfunctioning button until JS-->
+          </p>
+     </form>
+     <button type="button">Next?</button>
+     <!--Nonfunctioning button until inside form-->
+     <h3>Search Google</h3>
+     <form action="https://www.google.com/search">
+          <!--must match server information in url to work-->
+          <input type="text" name="q">
+          <button>Search</button>
+     </form>
+     <form action="">
+          <input type="text" name="q">
+          <button>Search</button>
+     </form>
+
+</body>
+
+</html>
