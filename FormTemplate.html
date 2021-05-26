@@ -12,9 +12,11 @@
      <h1>Forms Template</h1>
 
      <form action="/search/">
+          <h3>Search Box</h3>
           <p>
                <input type="text" placeholder="search" name="search">
           </p>
+          <h3>Login</h3>
           <p>
                <label for="username">Enter a Username:</label>
                <input type="text" placeholder="username" name="username">
@@ -24,38 +26,64 @@
                <input id="password" type="password" placeholder="password" name="password">
           </p>
           <p>
-               <label for="color">Pick a Color:</label>
-               <input id="color" type="color">
+          <h3>Color</h3>
+          <label for="color">Pick a Color:</label>
+          <input id="color" type="color">
           </p>
           <p>
-               <label for="date">Pick a Date</label>
-               <input id="date" type="date" name="date">
+          <h3>Date</h3>
+          <label for="date">Pick a Date</label>
+          <input id="date" type="date" name="date">
           </p>
           <p>
-               <label for="check">Sample Question1?</label>
-               <input id="check" type="checkbox" name="checkbox1">
+          <h3>Check Box</h3>
+          <label for="check">Sample Question1?</label>
+          <input id="check" type="checkbox" name="checkbox1">
           </p>
           <p>
-               <label for="button">Next Page/Submit:</label>
-               <button>Next</button>
-               <input type="submit" value="Submit">
-               <!--2 Lines Above are Sumbit Button by Default/Value is used to change name on button-->
-               <button type="button">Next?</button>
-               <!--Nonfunctioning button until JS-->
+          <h3>Buttons</h3>
+          <label for="button">Next Page/Submit:</label>
+          <button>Next</button>
+          <input type="submit" value="Submit">
+          <!--2 Lines Above are Sumbit Button by Default/Value is used to change name on button-->
+          <button type="button">Next?</button>
+          <!--Nonfunctioning button until JS-->
+          </p>
+          <p>
+          <h3>Radio Buttons</h3>
+          <input type="radio" name="pick" id="pick1" value="Picked1">
+          <label for="pick1">#1</label>
+          <input type="radio" name="pick" id="pick2" value="Picked2">
+          <label for="pick2">#2</label>
+          <input type="radio" name="pick" id="pick3" value="Picked2">
+          <label for="pick2">#3</label>
+          </p>
+          <p>
+          <h3>Select</h3>
+          <select name="123" id="123">
+               <label for="123">123</label>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+          </select>
           </p>
      </form>
      <button type="button">Next?</button>
      <!--Nonfunctioning button until inside form-->
+     <p>
      <h3>Search Google</h3>
      <form action="https://www.google.com/search">
           <!--must match server information in url to work-->
           <input type="text" name="q">
           <button>Search</button>
      </form>
+     </p>
+     <p>
      <form action="">
           <input type="text" name="q">
           <button>Search</button>
      </form>
+     </p>
 
 </body>
 
