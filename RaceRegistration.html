@@ -6,47 +6,50 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
+     <link rel="stylesheet" href="cssTemplate.css">
 </head>
 
 
 <body>
      <h1>Race Registration</h1>
-     <form action="">
-          <p>
-               <label for="first">First Name</label>
-               <input type="text" id="first" name="firstname" required>
-               <label for="last">Last Name</label>
-               <input type="text" id="last" name="lastname" required>
-          </p>
-          <p>
-               Select Your Event:
-          </p>
-          <p>
-               <input type="radio" name="race" id="fivek" value="fivek">
-               <label for="fivek">5k</label>
-               <input type="radio" name="race" id="half" value="half">
-               <label for="half">Half Marathon</label>
-               <input type="radio" name="race" id="marathon" value="marathon">
-               <label for="marathon">Marathon</label>
-               <input type="radio" name="race" id="relay" value="relay">
-               <label for="relay">Marathon Relay</label>
-          </p>
-          <p>
-               <label for="email">Email</label>
-               <input type="email" name="email" id="email" required>
-               <label for="password">Password</label>
-               <input type="password" name="password" id="password" required>
-          </p>
-          <p>
-               <label for="groups">Select Age Group:</label>
-               <select name="groups" id="groups" required>
-                    <option value="youth">Youth</option>
-                    <option value="adult">18-30</option>
-                    <option value="adult2">31-50</option>
-                    <option value="masters">Masters</option>
-               </select>
-          </p>
-          <button>Sumbit</button>
+     <form action="/registration/">
+          <div>
+               <p>
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" name="firstname" required>
+                    <label for="last">Last Name</label>
+                    <input type="text" id="last" name="lastname" required>
+               </p>
+               <p>
+                    Select Your Event:
+               </p>
+               <p>
+                    <input type="radio" name="race" id="fivek" value="fivek">
+                    <label for="fivek">5k</label>
+                    <input type="radio" name="race" id="half" value="half">
+                    <label for="half">Half Marathon</label>
+                    <input type="radio" name="race" id="marathon" value="marathon">
+                    <label for="marathon">Marathon</label>
+                    <input type="radio" name="race" id="relay" value="relay">
+                    <label for="relay">Marathon Relay</label>
+               </p>
+               <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+               </p>
+               <p>
+                    <label for="groups">Select Age Group:</label>
+                    <select name="groups" id="groups" required>
+                         <option value="youth">Youth</option>
+                         <option value="adult">18-30</option>
+                         <option value="adult2">31-50</option>
+                         <option value="masters">Masters</option>
+                    </select>
+               </p>
+               <button>Sumbit</button>
+          </div>
      </form>
 
 
