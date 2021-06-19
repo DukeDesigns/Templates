@@ -1,15 +1,17 @@
 body{
      background-image: url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");
      background-size: cover;
-     
  }
+
  h1{
      color: antiquewhite;
  }
+
  h3{
      color: antiquewhite;
      width: 70px;
  }
+
  #services{
      align-content: center;
      width: 180px;
@@ -19,6 +21,7 @@ body{
      margin: 0;
      
  }
+ 
  li{
      color: antiquewhite;
  }
